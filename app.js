@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 const moment = require('moment')
 
-const news = require("./lib/news")
 const index_router_fn=require('./lib/index_fn');
 const tips_router_fn=require('./lib/tipThemesFn')
 const companynews=require('./lib/cate_company_news')
@@ -81,8 +80,8 @@ app.get('/tipsThemes/:id.html',async (req, res)=>{
   let data = await tips_router_fn.routerFn(id)
   res.render('tips_themes', { 
     domain:config.domain,
-    url:"companyVideo",
-    surl:"companyVideo",
+    url:"news",
+    surl:"news",
     result:data.tips,
     c_data:data.current_news
   })

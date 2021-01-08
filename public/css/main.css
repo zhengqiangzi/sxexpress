@@ -40,11 +40,17 @@ img{
 .banner{
 	width: 100%;
 	text-align: center;
+	position: relative;
 }
 .banner img{
 	display: block;
 	width: 100%;
 
+}
+.banner .logo{
+	position: absolute;
+	left: 10px;
+	top:10px;
 }
 .linkA{
 	color:#147dd3;
