@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="铝合金断桥铝门窗"/>
+<meta name="keywords" content="铝合金，铝合金建材，铝合金断桥铝门窗，断桥铝门窗" />
+<meta name="renderer" content="webkit" />
+<meta name="applicable-device" content="pc" />
+<link type="text/css" rel="stylesheet" href="./css/main.css"/>
+<title>断桥铝门窗</title>
+<body style="background-color: #fff">
+include ./head.pug
+
+<div class="content_themes">
+	include ./leftmenu/news_left_menu.pug
+
+	<div class="right_content">
+		<div class="block_title">
+			<span class="chinese">行业新闻</span><b class="english">News</b>
+		</div>
+
+		<ul class="news_center">
+			- var data = data
+			each val in data
+				li
+					a(href=domain+"/tipsThemes/"+val.id) #{val.title}
+			
+		</ul>
+	</div>
+</div>
+
+
+include ./footer.pug
+</body>

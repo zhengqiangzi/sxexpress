@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="铝合金断桥铝门窗"/>
+<meta name="keywords" content="铝合金，铝合金建材，铝合金断桥铝门窗，断桥铝门窗" />
+<meta name="renderer" content="webkit" />
+<meta name="applicable-device" content="pc" />
+<link type="text/css" rel="stylesheet" href="./css/main.css"/>
+<title>断桥铝门窗</title>
+<body style="background-color: #fff">
+include ./head.pug
+
+
+<div class="content">
+	<div class="top">
+		<div class="company_description">
+		<div class="block_title">
+			<span class="chinese">公司简介</span><span class="english">Introduce</span>
+		</div>
+		<div class="company_image" ><img src="./image/company.jpg"/></div>
+			<div class="company_title">安徽生信新材料股份有限公司（原安徽生信铝业股份有限公司）是宣城市国有资本投资运营控股集团有限公司控股子公司。该公司位于宣城经济技术开发区，成立于2003年7月8日，注册资本1.3亿元，主要经营铝型材、铝棒、五金制品及模具的制造加工、销售，废旧物资回收，门窗及配件的销售，新能源汽车配件、轨道交通配件的生产及销售，是“高新技术企业”、“国家重合同守信用企业”，是合肥工业大学实践教学基地。重诚信。秉承 “诚信生信 品质生信 责任生信”的发展理念，坚守“您的满意是我们永恒的追求”的经营理念，大力实施品牌发展战略，走科技创新之路，在不断的自主创新中发展、壮大。精业务。目前，公司拥有现代化挤压、喷涂、电泳等生产线60余条，可年产10万吨铝型材。产品涉及建筑、工业等领域  <a class="linkA" href="#{domain}/introduce.html">...more</a>
+			</div>
+		</div>
+		<div class="index_news">
+			<div class="block_title">
+			<span class="chinese">行业新闻</span><b class="english">News</b>
+			</div>
+			<ul class="index_news_li">
+				- var news = news
+				each val in news
+					li
+						a(href=domain+"/tipsThemes/"+val.id+".html") #{val.title}
+			
+			</ul>
+		</div>
+	</div>
+	<div class="Knowleage">
+		<div class="block_title">
+			<span class="chinese">行业小知识</span><b class="english">Knowleage</b>
+		</div>
+		<ul>
+			- var tips = tips
+			each  val in tips
+				li 
+					a(href=domain+"/tipsThemes/"+val.id+".html") #{val.title}
+		</ul>
+	</div>
+	<div>
+		<div class="block_title">
+			<span class="chinese">产品展示</span><b class="english">Product</b>
+		</div>
+		<ul class="product_list">
+			<li>
+				<div><img src="./image/p1.jpg"/></div>
+				<b>铜陵学院艺术楼</b>
+			</li>
+			<li>
+				<div><img src="./image/p1.jpg"/></div>
+				<b>铜陵学院艺术楼</b>
+			</li>
+			<li>
+				<div><img src="./image/p1.jpg"/></div>
+				<b>铜陵学院艺术楼</b>
+			</li>
+			<li>
+				<div><img src="./image/p1.jpg"/></div>
+				<b>铜陵学院艺术楼</b>
+			</li>
+			<li>
+				<div><img src="./image/p1.jpg"/></div>
+				<b>铜陵学院艺术楼</b>
+			</li>
+			<li>
+				<div><img src="./image/p1.jpg"/></div>
+				<b>铜陵学院艺术楼</b>
+			</li>
+			<li>
+				<div><img src="./image/p1.jpg"/></div>
+				<b>铜陵学院艺术楼</b>
+			</li>
+			<li>
+				<div><img src="./image/p1.jpg"/></div>
+				<b>铜陵学院艺术楼</b>
+			</li>
+		</ul>
+	</div>
+</div>
+include ./footer.pug
+</body>

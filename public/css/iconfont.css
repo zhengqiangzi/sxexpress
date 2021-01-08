@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1609730084368'); /* IE9 */
+  src: url('iconfont.eot?t=1609730084368#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARwAAsAAAAACPwAAAQiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqFMIRAATYCJAMQCwoABCAFhG0HThu4B8gOJYnAwAD4ASBEPDyOme8naS9HqEABKgbHahZZuU3PSLQ1bmPLevqO/009IluAulBVibyIkREqnk699anLl+rvDo6ZLkoHlmezuWQFjgJwlEADimjbJ/BjCeObwK62QF588TyBDuMCYcfZhZUgUHjTAvFEIROCoKZRRoihyps9awvEK+CraR7nJl6mfx//LIYAJI0M3tzLe1kSSP2pfGfIhv8GjTECuNuZoGwiYwEoxINeyy3cPLKAq8MazLMKVFViKwL9ruY/865FUv1/eYQkE03wJF2MXY5mfipDOsFPmk7ip0EjE7rIKsV+gBgkxeg2n5ulAyMjM9woMKIHe/yx+uHDSth40g7GTnmRW844YuOnvQnsyaeaR4+qgOgMTT6sHN5eExoU44IdtiNSD+h7alhJEPNtsBFbckhTmKx7TGYheSJTBMl/WdMhgBu3sME2k2GMKxzaYivmGHoOx2++6Ot7+3F4wI4NDrvdV9+PJuYf3Tlpfyg3WEwuOGK7ZY8jtuZ+JRhGrVZ6n6rp9uP0uP/ghO0ISQ5tsx5bZz/U60pcOWqNsrbcK2Vki/W1rKFt9oPR2LUu7tDlyyuTz4zncIeMDviSO0zGflS93daTFm9/SxGcrvXruyIhh5nkIqi327uetO2t9aaSxJqpq/ea7w2PDd9rcW6gG9eITv3sNNlBeusyd+BEFYGzcmmVX3WwnIzD6psbj9+O90DP67dp0Z/kx0s7HNiP7HIg3gxx0qT4DQoTR19tsgOW+qP+/bi+687x1Orq3zuyn+/sEmUvM2jspp39OAWvSdgUkuefqddn+ueFbEqowXHL4pcmAp7Gzt5YpBG0Vt6AizoaneH/RKno98+IHhGUClKrb5prfpQ7JzweO8nu+NbhUeeXw7I5fivC2s3HJAfL5fe8MC68ALhq5bXcaADyB84NPfY/L+CS/5FxNheTtS2miX8F5IvU9N1um2fquWoVWMb5orkw9x/BBauKzfe0pZiCkOPYiuvv65SEDh34HyQY8HoL2TCcS6iGS0jajEFWTSALdgEaOi1DU7UHHeblbO40iMEVBQfmzBIg9NkDSY8WZH1uIQv2FTSM+ApNfcGFDtfCcs9OU6EgMhgkZJGEEnVRCjGtlQZ6lsjyy5GsTS1kqvyUVI0YvcJPhQWHNuM5SIuYLRbo22XhLCulpAytobKFy5BaTVM6hlYiMRssZ1ldfEiItO+NgsW0BghHGIgQC5GgiHShKIjRtKRxYxbR+v1yiEwbNSFmpKLFWA1h6Cl6p4QJFgogcyRaqOK5DNZrJxOOxZKKk6QYNA1KNpkQtR+hUXT9o5QQMVYw+YKQTrwQridFJcHHyzSvcBd08PYrwcG4GA/jQ9/tNj1LaxATpA8HtSvEiI80QoUav6NlSCentQgAAAA=') format('woff2'),
+  url('iconfont.woff?t=1609730084368') format('woff'),
+  url('iconfont.ttf?t=1609730084368') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1609730084368#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-customer-service:before {
+  content: "\e66a";
+}
+
+.icon-email:before {
+  content: "\e66f";
+}
+
+.icon-telephone:before {
+  content: "\e680";
+}
+
