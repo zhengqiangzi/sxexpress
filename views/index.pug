@@ -24,13 +24,14 @@ include ./head.pug
 		</div>
 		<div class="index_news">
 			<div class="block_title">
-			<span class="chinese">行业新闻</span><b class="english">News</b>
+				<span class="chinese">行业新闻</span><b class="english">News</b>
+				<span class="readMore"><a href=#{domain}/news.html title="查看更多" alt="查看更多"> &#xe606; </a></span>
 			</div>
-			<ul class="index_news_li">
+			<ul class="index_news_li diyFont">
 				- var news = news
 				each val in news
 					li
-						a(href=domain+"/tipsThemes/"+val.id+".html") #{val.title}
+						a(href=domain+"/tipsThemes/"+val.id+".html") &#xe87c; #{val.title}
 			
 			</ul>
 		</div>
@@ -39,11 +40,11 @@ include ./head.pug
 		<div class="block_title">
 			<span class="chinese">行业小知识</span><b class="english">Knowleage</b>
 		</div>
-		<ul>
+		<ul class="diyFont">
 			- var tips = tips
 			each  val in tips
 				li 
-					a(href=domain+"/tipsThemes/"+val.id+".html") #{val.title}
+					a(href=domain+"/tipsThemes/"+val.id+".html") &#xe87c; #{val.title}
 		</ul>
 	</div>
 	<div>

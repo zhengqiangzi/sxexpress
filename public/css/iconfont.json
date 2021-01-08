@@ -25,6 +25,34 @@
       "font_class": "telephone",
       "unicode": "e680",
       "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "18781793",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "18808285",
+      "name": "arrowRight",
+      "font_class": "arrowRight",
+      "unicode": "e87c",
+      "unicode_decimal": 59516
+    },
+    {
+      "icon_id": "18808370",
+      "name": "moreHorizontal",
+      "font_class": "moreHorizontal",
+      "unicode": "e891",
+      "unicode_decimal": 59537
+    },
+    {
+      "icon_id": "18808374",
+      "name": "moreVertical",
+      "font_class": "moreVertical",
+      "unicode": "e892",
+      "unicode_decimal": 59538
     }
   ]
 }

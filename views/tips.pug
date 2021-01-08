@@ -18,11 +18,11 @@ include ./head.pug
 			<span class="chinese">行业新闻</span><b class="english">News</b>
 		</div>
 
-		<ul class="news_center">
+		<ul class="news_center diyFont">
 			- var data = data
 			each val in data 
 				li 
-					a(href=domain+"/tipsThemes/"+val.id+".html") #{val.title}
+					a(href=domain+"/tipsThemes/"+val.id+".html") &#xe87c; #{val.title}
 		</ul>
 	</div>
 </div>

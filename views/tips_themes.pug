@@ -11,24 +11,20 @@
 <body style="background-color: #fff">
 	include ./head.pug
 		<div class="content_themes">
-			<ul class="left_menu">
+			<ul class="left_menu diyFont">
 				- var list = result
 				each data in list
 					li.tips_item
-						a(href=domain+"/tipsThemes/"+data.id+".html" title=data.title alt=data.title) #{data.title}
+						a.tipsThemes(href=domain+"/tipsThemes/"+data.id+".html" title=data.title alt=data.title) &#xe87c; #{data.title}
 			</ul>
 			<div class="right_content">
 				- var result = c_data
-				<div>
+				<div class="tips_themes">
 					<h3>#{result.title}</h3>
-					<span>#{result.date}</span>
+					<i>#{result.date}</i>
 				</div>
-				div.desc #{result.desc}
+				div.desc !{result.desc}
 				
-
-
-
-
 			</div>
 		</div>
 	include ./footer.pug

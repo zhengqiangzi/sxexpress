@@ -123,6 +123,7 @@ a{
     text-overflow: ellipsis;
     word-break: normal;
     overflow: hidden;
+    padding: 10px 0px 10px 0px;
 
 }
 
@@ -189,7 +190,18 @@ a{
 	overflow: hidden;
 	margin-bottom: 5px;
 	border-bottom:1px solid #999999;
+	position: relative;
 }
+.readMore{
+	position: absolute;
+	right: 0;
+	top:0;
+	  font-family: "iconfont";
+	  font-style: normal;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  font-weight: bold;
+  }
 .chinese{
 	color:#1253b5;
 	border-bottom:3px solid #ff0000;
@@ -244,6 +256,10 @@ a{
 		border-bottom:2px solid #fff;
 	transition: all 0.3s;
 }
+.left_menu li a.tipsThemes{
+	text-align: left;
+}
+
 .left_menu li a:hover{
 	background-color: #fff;
 	color:#147cd3;
@@ -363,9 +379,16 @@ a{
 
 	margin-top: 20px;
 }
+
 .tips_item a{
 	text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     padding:0px 5px 0px 5px;
+}
+.tips_themes{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+    margin-bottom: 30px;
 }
